@@ -25,7 +25,7 @@ class Triangle
         raise TriangleError  
       end
     else
-      raise Triangle Error
+      raise TriangleError
     end
   end
   
