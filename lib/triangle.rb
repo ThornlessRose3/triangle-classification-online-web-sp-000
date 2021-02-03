@@ -36,7 +36,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
-      ""
+      "The lengths provided do not construct a valid triangle."
   end
   
 end
