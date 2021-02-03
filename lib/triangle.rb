@@ -10,7 +10,12 @@ class Triangle
   end
   
   def kind
-    
+    if side1 == side2 && side1 == side3 && side2 == side3
+      return :equilatal
+    elsif side1 == side2 || side1 == side3 || side2 == side3
+      return :isosceles
+    elsif side1 != side2 && side1 != side3 && side2 != side3
+      return :scaline
     
   end
   
