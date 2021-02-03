@@ -10,9 +10,9 @@ class Triangle
   end
   
   def kind
-    if valid?
+    if self.valid?
       if side1 == side2 && side1 == side3 && side2 == side3
-        return :equilatal
+        return :equilateral
       elsif side1 == side2 || side1 == side3 || side2 == side3
         return :isosceles
       elsif side1 != side2 && side1 != side3 && side2 != side3
