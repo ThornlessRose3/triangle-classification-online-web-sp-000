@@ -15,7 +15,7 @@ class Triangle
     elsif side1 == side2 || side1 == side3 || side2 == side3
       return :isosceles
     elsif side1 != side2 && side1 != side3 && side2 != side3
-      return :scaline
+      return :scalene
     
   end
   
